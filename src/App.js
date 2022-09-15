@@ -1,14 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Hero from './Components/Landing/Hero';
 
-function App() {
+
+const App = () => {
   return (
     <div>
-    
+
+      <Hero />
+      
     
     </div>
-     
+
   );
 }
 
-export default App;
+export default App

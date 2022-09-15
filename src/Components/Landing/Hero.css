@@ -1,0 +1,14 @@
+/* ALL CSS PROPERTIES FOR THE LANDING PAGE */
+.hero {
+    height: 35em;
+}
+
+strong{
+    color: #F4906E;
+}
+
+.h1 {
+    font-size: 3.6em;
+    margin-left: 6em;
+    margin-top: 1em;
+}
