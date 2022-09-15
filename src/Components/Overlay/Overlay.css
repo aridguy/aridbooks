@@ -1,0 +1,31 @@
+.overlay {
+    background: #F4906E;
+    height: 7em;
+    width: 100%;
+    /* margin-bottom: -1em; */
+    position: relative;
+    bottom: 3em;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding: 33px;
+    color: white;
+}
+.h3 {
+    font-size: 2.75rem;
+    margin-left: 2em;
+    position: relative;
+    bottom: 6px;
+}
+
+.shop{
+    position: relative;
+    right: 3em;
+    background: #065082;
+    border: none;
+    width: 13em;
+    Height: 4em;
+    bottom: 10px;
+    
+}
+/* shop button pseudo class */
