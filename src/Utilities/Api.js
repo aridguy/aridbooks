@@ -8,7 +8,6 @@ const Api={
         axios.get(`${host}/api/books?page=${page}`) 
         .then(res => {
             success(res);
-            
         })
     }
 }

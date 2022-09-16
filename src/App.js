@@ -12,7 +12,7 @@ const App = () => {
       <Hero />
       <Overlay />
       <Store />
-          
+
     </div>
 
   );

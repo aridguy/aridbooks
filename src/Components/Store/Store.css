@@ -1,9 +1,9 @@
 
 #contain {
-    background: brown;
+    /* background: brown; */
     display: flex;
     flex-wrap: wrap;
-    height: 16em;
+    height: 22em;
     align-items: center;
     justify-content: center;
     width: 15em;
@@ -11,6 +11,26 @@
     text-align: center;
     padding: 2em;
     margin-bottom: 3em;
+    margin-left: 10px;
+    border-radius: 9px;
+    /* cursor: pointer; */
     /* color: white; */
 
+}
+
+.theWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#pageTogs{
+    position: relative;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.shopBooks{
+    position: relative;
 }
