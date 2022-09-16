@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react'
 import '../Landing/Hero.css'
 import Nav from "../MiniNav/Nav"
 import books from '../../Assets/Img/books.png'
 
 
-
 const Hero = () => {
+  
   return (
     // THE FRAGMENT 
     <div>
@@ -28,6 +28,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        
 
       </div>
 

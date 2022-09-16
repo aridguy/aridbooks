@@ -1,10 +1,16 @@
 
-#contain{
-    /* background: brown; */
-    height: 14em;
+#contain {
+    background: brown;
+    display: flex;
+    flex-wrap: wrap;
+    height: 16em;
+    align-items: center;
+    justify-content: center;
     width: 15em;
     border: 2px solid grey;
     text-align: center;
-    padding: 3em;
-    
+    padding: 2em;
+    margin-bottom: 3em;
+    /* color: white; */
+
 }
