@@ -13,3 +13,11 @@
     margin-top: 15px;
     margin-left: 60px;
 }
+
+.count {
+    color: black;
+    position: absolute;
+    font-size: 16px;
+    right: 36em;
+    top: 8em;
+}

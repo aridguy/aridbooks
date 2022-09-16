@@ -28,7 +28,7 @@ const Store = () => {
     }
     return (
         <div>
-
+            <div><span className="count" id="count">0</span></div>
             <div className="container">
                 <div className='row'>
                     <h1>Shop for your Favourite book now</h1>
