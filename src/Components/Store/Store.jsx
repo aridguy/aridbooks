@@ -8,6 +8,9 @@ import right from '../../Assets/Icons/right.png'
 
 
 const Store = () => {
+    const gotoCart = () => {
+        document.getElementById('count');
+    }
     const [page, setPages] = useState(1)
     const [booksData, setBookData] = useState([])
     useEffect(() => {
@@ -42,7 +45,7 @@ const Store = () => {
                                     <p className='country'>{book.country}</p>
                                     <p className='publisher'>{book.publisher}</p>
                                     <strong className='author'>{book.authors}</strong>
-                                    <button className='btn btn-warning mt-2 shopBooks'>Add to Cart</button>
+                                    <button onClick={gotoCart} className='btn btn-warning mt-2 shopBooks'>Add to Cart</button>
                                 </div>
                             )
                         }
